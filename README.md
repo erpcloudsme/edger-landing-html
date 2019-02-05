@@ -1,0 +1,2 @@
+# Edger Landing Page
+Edger is an Enterprise Resource Planning (ERP) software built on top of cloud architecture to manage your business architecture from Inventory, Sales, Orders, even accounting. In case you have quickbook for your accounting. be happy, Since we provides quickbook integration right in our platform.
