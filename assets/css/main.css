@@ -11,3 +11,27 @@ a.nav-link:hover {
 .theme-nav.darkHeader .nav-item {
     padding: 0 10px;
 }
+
+.tap-top {
+    bottom: 35px;
+    transition: all 0.2s;
+}
+
+.tap-top:hover {
+    bottom: 38px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
+}
+
+.slid-btn {
+    margin-top: 35px;
+    color: #754884;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #fff;
+    max-widtH: 150px;
+    text-align: center;
+}
+
+.slide-text h4 {
+    color: #d9bde2;
+}
