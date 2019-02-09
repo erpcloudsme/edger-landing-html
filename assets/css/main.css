@@ -42,3 +42,19 @@ a.nav-link:hover {
 .screenshots {
     background: #fff;
 }
+
+/* partner */
+.partner-wrapper {
+    text-align:center;
+    height: 100%;
+}
+
+/* about image */
+.about-image {
+    color: #4c2fbf;
+    font-size: 2.5em;
+    transition: all 0.2s;
+}
+.about-image:hover {
+    transform: rotate(15deg);
+}
