@@ -1,3 +1,4 @@
+/* Navigation */
 a.nav-link {
     transition: all 0.2s;
     padding-left: 7px !important;
@@ -7,31 +8,48 @@ a.nav-link:hover {
     color: #f8f9fa !important;
     background-color: rgba(0,0,0,.03);
 }
-
 .theme-nav.darkHeader .nav-item {
     padding: 0 10px;
 }
 
+/* button scroll top */
 .tap-top {
     bottom: 35px;
     transition: all 0.2s;
 }
-
 .tap-top:hover {
     bottom: 38px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
 }
 
-.slid-btn {
-    margin-top: 35px;
-    color: #754884;
-    padding: 12px;
-    border-radius: 4px;
-    background-color: #fff;
-    max-widtH: 150px;
-    text-align: center;
+/* button header */
+.btn-inverse {
+    background: #fff;
+    color: #5f57ea;
+    border-radius: 5px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 20px;
 }
 
+/* button scroll top */
 .slide-text h4 {
     color: #d9bde2;
+}
+
+/* review */
+.review-wrapper {
+    text-align: center;
+}
+.review-wrapper h1 {
+    color: #ff396f;
+}
+.review-wrapper p {
+    color: #586082;
+}
+
+/* work container */
+.screenshots {
+    background: #fff;
 }
