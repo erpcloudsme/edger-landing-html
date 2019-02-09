@@ -22,17 +22,6 @@ a.nav-link:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
 }
 
-/* button header */
-.btn-inverse {
-    background: #fff;
-    color: #5f57ea;
-    border-radius: 5px;
-    padding: 10px 30px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    margin-top: 20px;
-}
-
 /* button scroll top */
 .slide-text h4 {
     color: #d9bde2;
