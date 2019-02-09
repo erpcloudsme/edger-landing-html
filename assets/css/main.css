@@ -58,3 +58,9 @@ a.nav-link:hover {
 .about-image:hover {
     transform: rotate(15deg);
 }
+
+/* testimonial */
+.testimonial {
+    background-image: url(../images/new-testimonial-bg.png);
+    background-position: initial;
+}
