@@ -48,6 +48,14 @@ a.nav-link:hover {
     text-align:center;
     height: 100%;
 }
+.swiper-slide .partner-logo {
+    margin-top: 15px;
+    margin-bottom: -15px;
+    margin-left: 20%;
+    border-radius: 50%;
+    height: 60%;
+    width: 60%;
+}
 
 /* about image */
 .about-image {
