@@ -1,37 +1,118 @@
+h2 {
+    color: #FFA000;
+}
+
+/* Navigation */
 a.nav-link {
     transition: all 0.2s;
     padding-left: 7px !important;
     padding-right: 7px !important;
 }
 a.nav-link:hover {
-    color: #f8f9fa !important;
+    color: #FFA000 !important;
     background-color: rgba(0,0,0,.03);
 }
-
 .theme-nav.darkHeader .nav-item {
     padding: 0 10px;
 }
 
+/* button scroll top */
 .tap-top {
     bottom: 35px;
     transition: all 0.2s;
 }
-
+.tap-top i {
+    vertical-align: baseline;
+}
 .tap-top:hover {
     bottom: 38px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
 }
 
-.slid-btn {
-    margin-top: 35px;
-    color: #754884;
-    padding: 12px;
-    border-radius: 4px;
-    background-color: #fff;
-    max-widtH: 150px;
-    text-align: center;
-}
-
+/* button scroll top */
 .slide-text h4 {
     color: #d9bde2;
+}
+
+/* review */
+.review-wrapper {
+    text-align: center;
+}
+.swiper-slide:nth-child(odd) h1 {
+    color: #4c2fbf;
+}
+.swiper-slide:nth-child(even) h1 {
+    color: #FFA000;
+}
+.review-wrapper p {
+    color: #586082;
+}
+
+/* work container */
+.screenshots {
+    background: #fff;
+}
+
+/* partner */
+.partner-wrapper {
+    text-align:center;
+    height: 100%;
+}
+.swiper-slide .partner-logo {
+    margin-top: 15px;
+    margin-bottom: -15px;
+    margin-left: 20%;
+    border-radius: 50%;
+    height: 60%;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
+}
+
+/* about image */
+.about-image {
+    color: #4c2fbf;
+    font-size: 2.5em;
+    transition: all 0.2s;
+}
+.about-image:hover {
+    transform: rotate(15deg);
+}
+
+/* testimonial */
+.testimonial {
+    background-image: url(../images/new-testimonial-bg.png);
+    background-position: initial;
+}
+
+/* button get started */
+.btn-email {
+    color: #4c2fbf;
+}
+.btn-email:hover {
+    color: #FFA000;
+}
+
+/* subtitle */
+.testi-profile .sub-title {
+    color: #FFA000;
+}
+
+/* btn theme */
+.btn-theme, .price-plan-btn {
+    background: linear-gradient(to right, #FF6F00 0%, #FFA000 100%);
+    cursor: pointer;
+    transition: unset;
+}
+.btn-theme:hover, .price-plan-btn:hover {
+    background: #FF6F00;
+}
+
+/* last child nav */
+li.nav-item:last-child a {
+    background: linear-gradient(to right, #FF6F00 0%, #FFA000 100%);
+    color: #fff !important;
+    transition: all 0.2s;
+}
+li.nav-item:last-child a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
 }
