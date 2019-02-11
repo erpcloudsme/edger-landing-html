@@ -1,3 +1,7 @@
+h2 {
+    color: #FFA000;
+}
+
 /* Navigation */
 a.nav-link {
     transition: all 0.2s;
@@ -5,7 +9,7 @@ a.nav-link {
     padding-right: 7px !important;
 }
 a.nav-link:hover {
-    color: #f8f9fa !important;
+    color: #FFA000 !important;
     background-color: rgba(0,0,0,.03);
 }
 .theme-nav.darkHeader .nav-item {
@@ -16,6 +20,9 @@ a.nav-link:hover {
 .tap-top {
     bottom: 35px;
     transition: all 0.2s;
+}
+.tap-top i {
+    vertical-align: baseline;
 }
 .tap-top:hover {
     bottom: 38px;
@@ -31,8 +38,11 @@ a.nav-link:hover {
 .review-wrapper {
     text-align: center;
 }
-.review-wrapper h1 {
-    color: #ff396f;
+.swiper-slide:nth-child(odd) h1 {
+    color: #4c2fbf;
+}
+.swiper-slide:nth-child(even) h1 {
+    color: #FFA000;
 }
 .review-wrapper p {
     color: #586082;
@@ -55,6 +65,7 @@ a.nav-link:hover {
     border-radius: 50%;
     height: 60%;
     width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
 }
 
 /* about image */
@@ -71,4 +82,27 @@ a.nav-link:hover {
 .testimonial {
     background-image: url(../images/new-testimonial-bg.png);
     background-position: initial;
+}
+
+/* button get started */
+.btn-email {
+    color: #4c2fbf;
+}
+.btn-email:hover {
+    color: #FFA000;
+}
+
+/* subtitle */
+.testi-profile .sub-title {
+    color: #FFA000;
+}
+
+/* btn theme */
+.btn-theme, .price-plan-btn {
+    background: linear-gradient(to right, #FF6F00 0%, #FFA000 100%);
+    cursor: pointer;
+    transition: unset;
+}
+.btn-theme:hover, .price-plan-btn:hover {
+    background: #FF6F00;
 }
