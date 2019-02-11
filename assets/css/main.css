@@ -106,3 +106,13 @@ a.nav-link:hover {
 .btn-theme:hover, .price-plan-btn:hover {
     background: #FF6F00;
 }
+
+/* last child nav */
+li.nav-item:last-child a {
+    background: linear-gradient(to right, #FF6F00 0%, #FFA000 100%);
+    color: #fff !important;
+    transition: all 0.2s;
+}
+li.nav-item:last-child a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
+}
